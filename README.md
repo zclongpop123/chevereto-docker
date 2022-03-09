@@ -1,4 +1,10 @@
-# Chevereto 图床
+Chevereto 图床
+=
+安装 docker + docker-compose
+
+参考方法 https://github.com/zclongpop123/chinese-mirrors/blob/main/docker-ce.md
+
+
 克隆仓库
 ```bash
 https://github.com/zclongpop123/chevereto-docker.git
