@@ -1,5 +1,12 @@
 # Chevereto 图床
-
+克隆仓库
+```bash
+https://github.com/zclongpop123/chevereto-docker.git
+```
+启动容器
+```bash
+docker-compose up -d
+```
 创建数据库
 ```bash
 CREATE DATABASE chevereto_db;
