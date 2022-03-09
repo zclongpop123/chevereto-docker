@@ -7,6 +7,14 @@ https://github.com/zclongpop123/chevereto-docker.git
 ```bash
 docker-compose up -d
 ```
+进入数据库容器
+```bash
+docker exec -it MariaDB /bin/bash
+```
+登录数据库管理
+```bash
+mysql -u root -p
+```
 创建数据库
 ```bash
 CREATE DATABASE chevereto_db;
@@ -23,3 +31,5 @@ GRANT ALL ON chevereto_db.* TO chevereto_db_user;
 ```bash
 set password for chevereto_db_user=password("zcl.123");
 ```
+
+从网页填写数据库连接信息,完成后续安装
