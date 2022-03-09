@@ -7,7 +7,7 @@ Chevereto 图床
 
 克隆仓库
 ```bash
-https://github.com/zclongpop123/chevereto-docker.git
+git clone https://github.com/zclongpop123/chevereto-docker.git
 ```
 启动容器
 ```bash
