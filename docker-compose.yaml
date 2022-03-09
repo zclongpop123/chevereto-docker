@@ -10,6 +10,7 @@ services:
 
         volumes:
             - /home/mariadb/config:/config
+            - /home/mariadb/data:/var/lib/mysql
 
         environment:
             - PUID=1000
