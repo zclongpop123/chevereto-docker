@@ -25,7 +25,7 @@ services:
     chevereto:
         container_name: Chevereto
 
-        image: lscr.io/linuxserver/chevereto
+        image: linuxserver/chevereto
         restart: unless-stopped
 
         depends_on:
